@@ -1,0 +1,22 @@
+# 需要检查的版本号
+version:
+  # - "1.12.2" 停止 1.12.2 版本的更新维护工作
+  - "1.16"
+  - "1.18"
+
+# 不检查更新的模组，使用 slug
+black_list:
+  - "minecraft"
+  - "minecraftforge"
+  - "ffe" # 英文文本 json 格式错误
+  - "creeper-confetti" # 英文文本 json 格式错误
+
+# 远程翻译仓库地址
+remote-repo: "git@github.com:CFPAOrg/Minecraft-Mod-Language-Package.git"
+# 本地 clone 地址
+local-repo: "E:/Dev/Minecraft-Mod-Language-Package"
+
+# 下载线程数
+download-thread-count: 10
+# 下载间隔时间（秒）
+download-sleep-time: 5
